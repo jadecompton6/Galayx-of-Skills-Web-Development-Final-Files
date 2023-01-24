@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Schedule Class</title>
+
+        <link rel="stylesheet" href="schedule.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,900" rel="stylesheet">
+
+    </head>
+    <body>
+	<div class="wrapper">
+        <div class="container">
+            <div class="container-date">
+                <h2 class="heading"> Welcome to Galaxy of Skills </h2>
+                <hr>
+                <h3 class="heading-days"> We are are online internship</h3>
+                <h4>Notice:</h4>
+                <p>Each class is 1 hour and we host 10 classes a week. </p><p>Thank you for reserving your time spot!</p>
+                <hr>
+                <h4 class="heading-phone"> Phone: </h4>
+
+            </div>
+            <div class="container-form">
+
+                <form action="connect.php">
+                    <h2 class="heading heading-yellow"> Online Listing </h2>
+                    <div class="form-field">
+                        <p>Class Type</p>
+                            <input type="letter" placeholder="Class Type" min="A" max="5" ><br />
+                        </div>
+						<div class="form-field">
+                        <p>Date</p>
+                            <input type="date" placeholder="MM/dd/YYYY" size="1">
+							</div>
+							<div class="form-field">
+
+                            <p>Time Slot</p>
+                            <select input type="text" id="hours" name="hours" size="1">
+                                <option value="Spoken English">08:30 PM - 09:30 PM</option>
+                                <option value="Public Speaking">9:00 PM - 10:00 PM</option>
+                                <option value="Role Play">9:00 PM - 10:00 PM</option>
+                                <option value="Java">8:45 PM - 9:00 PM</option>
+                                <option value="Web Development">10:00 PM-11:00 PM</option>
+                                <option value="SQL">12PM-3PM</option>
+                            </select> <br />
+                                          
+                        
+                    </div>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+                    <button  class="btn">Submit</button>
+                </form>
+
+            </div>
+        </div>
+		</div>
+    </body>
+</html>
