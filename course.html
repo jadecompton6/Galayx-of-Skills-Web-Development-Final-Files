@@ -1,195 +1,194 @@
 <html>
 <head>
-    <title>Courses and Events</title>
-    
-    <style>
-        .head1 {
-            font-size:40px;
-            color:#009900;
-            font-weight:bold;
-        }
-        .head2 {
-            font-size:20px;
-            margin-left:10px;
-            margin-bottom:15px;
-        }
-        body {
-            margin: 0 auto;
-            background-position:center;
-            background-size: contain;
-        }
-      
-        .menu { 
 
-            background-color: #009900;
-            padding:10px 0px 10px 0px;
-            color:white;
-            margin: 0 auto;
-            overflow: hidden;
-        }
-        .menu a {
-            float: left;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 20px;
-        }
-        .menu-log {
-            right: auto;
-            float: right;
-        }
-        footer {
-            width: 100%;
-            bottom: 0px;
-            background-color: #000;
-            color: #fff;
-            position: absolute;
-            padding-top:20px;
-            padding-bottom:50px;
-            text-align:center;
-            font-size:30px;
-            font-weight:bold;
-        }
-        .body_sec {
-            margin-left:20px;
-        }
-
-        .column {
-            float: left;
-             width: 33.33%;
-}
-
-    }
-    </style>
+<title>Galaxy of Skills: Home</title>
 <link rel="stylesheet" href="GalaxyofSkills.css"></link>
 </head>
-  
+
+
+
 <body>
-      
-    <!-- Header Section -->
+
+     <!-- Header Section -->
     <header>
-        <div class="head1">Galaxy of Skills</div>
+        <div class="head1" onmouseover="style.color='blue'" onmouseout="style.color='black'">Galaxy of Skills</div>
         <div class="head2">A community for passionate learners.</div>
     </header>
       
     <!-- Menu Navigation Bar -->
+
+
     <nav class="menu">
-        <a href="home.html">HOME</a>
-        <a href="course.html">COURSES & EVENTS</a>
-        <a href="about.html">ABOUT US</a>
-        <a href="question.html">QUESTIONS & FORUMS</a>
+        <a href="main.html">Home</a>
+        <a href="course.html">Classes & Events</a>
+        <a href="about.html">About Us</a>
+        <a href="question.html">Forums & Groups</a>
 
         <div class="menu-log">
-          <a href="#login" class ="form__link">LOGIN</a>
-          <a href="#signup" class = "form__link">SIGN UP</a>
-            <a href="#news">PROFILE</a>
-            <a href="#notification">NOTIFICATIONS</a>
+          <a href="createlogin.html" class = "form__link">Login & Sign Up</a>
+
+
+             <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">Profile
+                        <i class="fa fa-caret-down"></i>
+  </button>
+                <div class="dropdown-content" id="myDropdown">
+                <a href="#">Dashboard</a>
+                <a href="#">Assignments</a>
+                <a href="#">Settings</a>
+  </div>
         </div>
       </nav>
-      
-    <!-- Body section -->
-    <main class = "body_section">
-        <section id="Content">
-            <h3>Content section</h3>
-        </section>
-        <section>
-    <img class="mySlides" src="galaxy2.jpg" style="width:100%">
-    <img class="mySlides" src="galaxy3.jpg" style="width:100%">
-    </section>
-      </main>
-      <br>
-
-      <script>
-// Automatic Slideshow - change image every 3 seconds
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}
-  x[myIndex-1].style.display = "block";
-  setTimeout(carousel, 3000);
-}
-</script>
-
-<section class="w3-container w3-center w3-content" style="max-width:600px">
-  <h2 class="w3-wide">Big Announcement!!!</h2>
-
-We are providing Spoken English training program absolutely FREE  
-
-Money can't be barrier of education, all we need an enthusiastic learners!!
-
-Please join our group :
 
 
-<h1>This course will cover following: </h1>
+<img src ="IMG_20221105_093728_654.jpg" style="width:400px; height:400px;position:stickt; float:right;border-radius:40% 0% 40% 50%;">
+<br>
+<h2 style= "color: red;text-decoration: underline">Welcome To Our Website i.e Galaxy Of Skills. <br></h2>
+<h3 style= "color: Orange;text-decoration: underline"> Here We are providing absolutely FREE training program for following courses:-</h3>
+<br>
 
-》 Greetings and basic conversation 
-》 Introduction (Basic and advance level for interview) 
-》 Daily Routine - How to describe your daily lifestyle and routine 
-》 Story Telling 
-》 Guiding map/directions 
-》 Training for answering calls in English 
-》 Basic conversation with friends and family 
-》 Role play (Doctor, Teacher, Sales and many more) 
-》 Group Discussion 
-》 Communication Skills 
-》 Presentation skills 
-》 Sales Skills 
-》 Management Skills 
-》 Public Speaking Skills 
-》 Interview Training 
-》 Voice Over 
-》 International Accent 
-》 Webinar Guest Lectures 
-》 Anchoring Show
-》 Special training program book reading like anchors
 
-Class Environment: 
-It will be completely smart class, we will train you through role plays, games and group conversations in friendly environment. 
+ <div class="grid-container">
+  <div class="grid-item">Monday</div>
+  <div class="grid-item">Tuesday</div>
+  <div class="grid-item">Wednesday</div>
+  <div class="grid-item">Thursday</div>
+  <div class="grid-item">Friday</div>
+  <div class="grid-item">Saturday</div>
+  <div class="grid-item">Sunday</div>
+</div>
 
-<h3>Facilities<h3>
-• 1 hour live class.
-• English only environment.
-• Classes avail in Hindi and English (both the languages)
-• Group Discussion.
-• Life time membership.
-• Interview Training.
-• Doubt clearing class.
-• Individual training.
-• Personality Development Webinars.
+<ol start="1"> 
+<li style= "color: Brown;size: 20px;text-decoration: Bold">Spoken English Class</li>
+<ul>
+<li>From Mon-Fri at 9pm- 10pm IST</li> 
+</ol>
+<ol start="2"> 
+<li style= "color: Brown;size: 20px;text-decoration: Bold">JAVA Class</li>
+<ul>
+<li>From Mon-Fri at 7:45pm- 8:45pm IST</li> 
+</ol>
+<ol start="3"> 
+<li style= "color: Brown;size: 20px;text-decoration: Bold">SQL, ETL, PostgreSQL, MongoDB, UNIX, Python, PowerBI, Business Intelligence, Machine Learning, AWS, Software Testing Classes</li>
+<ul>
+<li>From Mon-Fri at 10:30pm- 11:30pm IST</li> 
+</ol>
+<ol start="4"> 
+<li style= "color: Brown;size: 20px;text-decoration: Bold">Perosnality Development Classes</li>
+<ul>
+<li>From Mon-Fri at 10:30pm- 11:30pm IST</li> 
+</ol>
+<ol start="5"> 
+<li style= "color: Brown;size: 20px;text-decoration: Bold">Public Speaking Class</li>
+<ul>
+<li>Sun at 9pm IST IST</li> 
+</ol>
+<ol start="6"> 
+<li style= "color: Brown;size: 20px;text-decoration: Bold">Role Play Class</li>
+<ul>
+<li>Sat at 9pm IST IST</li> 
+</ol>
+<ol start="7"> 
+<li style= "color: Brown;size: 20px;text-decoration: Bold">Perosnal Finance Class</li>
+<ul>
+<li>Sun at 9pm IST IST</li> 
+</ol>
+<ol start="8"> 
+<li style= "color: Brown;size: 20px;text-decoration: Bold">Drp Shipping Class</li>
+<ul>
+<li>Sat at 9pm IST IST</li> 
+</ol>
+<ol start="9"> 
+<li style= "color: Brown;size: 20px;text-decoration: Bold">Content Writing Class</li>
+<ul>
+<li>Sun at 9pm IST IST</li> 
+</ol>
+<ol start="10"> 
+<li style= "color: Brown;size: 20px;text-decoration: Bold">Resume Building and Posting</li>
+<ul>
+<li>Sat at 9pm IST IST</li> 
+</ol>
+<ol start="11"> 
+<li style= "color: Brown;size: 20px;text-decoration: Bold">LinkedIn Networking Class</li>
+<ul>
+<li>Sun at 9pm IST IST</li> 
+</ol>
+<ol start="12"> 
+<li style= "color: Brown;size: 20px;text-decoration: Bold">Job Interview Training</li>
+<ul>
+<li>Sat at 9pm IST IST</li> 
+</ol>
+<h2 style= "color: red;text-decoration: underline">Money is n't a barrier for an enthusiastic learner!! <br></h2>
 
-Class Environment: 
-It will be completely online training program (Google meet), we will train you through role plays, games and group conversations in friendly environment. 
-
-Please share this msg with your classmates and invite them to our community. 
-
-Thank you
+<br />
+<p>
+        Select the day of the week. 
+    
+    <select id="Weekdays">
+    <option value="Sunday">Sunday</option>
+    <option value="Monday">Monday</option>
+    <option value="Tuesday">Tuesday</option>
+    <option value="Wednesday">Wednesday</option>
+    <option value="Thursday">Thusday</option>
+    <option value="Friday">Friday</option>
     </p>
-</section>
-      
-    <!-- Footer Section -->
-    <section>Galaxy of Skills Community
 
-        <div class="pagination">
-        <a href="https://www.twitter.com/">
-        <img src ="twitter.png" alt="twitter" style="width:15% ></a>
+    <br />
 
+    <p>
+<input type="radio" id="class" typed="checked">
+            <label for="class">Spoken English</label>
+            <br>
 
+<input type="radio" id="class" typed="checked">
+            <label for="class">Public Speaking</label>
+        <br>
 
-        
-         <a href="https://t.me/galaxyofskills/><img src ="spokenenglish.jpeg" alt="Spoken English" style="width:15%"></a>
+<input type="radio" id="class" typed="checked">
+            <label for="class">Java</label>
+        <br>
+
+<input type="radio" id="class" typed="checked">
+           <label for="class">Web Development</label>
+        <br>
+
+<input type="radio" id="class" typed="checked">
+           <label for="class">SQL and Database Management</label>
+        <br>
+
+<input type="radio" id="class" typed="checked">
+           <label for="class">Book Reading</label>
+           <br>
+
+<input type="radio" id="class" typed="checked">
+           <label for="class">Python</label>
+           <br>
+
+<input type="radio" id="class" typed="checked">
+           <label for="class">Literature</label>
+           <br>
+       </p>
+
+       <!-- Footer Section -->
+    <section class="footer">
+    <div class="footerup">
+      Galacy of Skills <br>
+      Join Our 5000+ Happy Students Today!
+    </div>
+    <div class="footerdown">
+      Make Your carrier in IT sector with us.</div>
+      <div class="mentors"><center><a href="https://t.me/galaxyofskills" target="_blank"><img src="https://i.pinimg.com/736x/b1/01/3f/b1013f5d45dc9b31e64d44d04334d94b.jpg" alt="image loading" width="80px"></a><br></center>
         </div>
 
+      <!-- social accounts add -->
+     <center> <div>
+      <a href="https://www.linkedin.com/"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="snapchat"width="50px"></a>
+      <a href="https://www.twitter.com/"><img src="https://cdn-icons-png.flaticon.com/512/124/124021.png" alt="snapchat"width="50px"></a>
+      <a href="https://www.instagram.com/"><img src="https://1000logos.net/wp-content/uploads/2017/02/Instagram-Logo.png" alt="snapchat" width="100px"></a></div>
+    </center>
+  </section>
 
-
-
-    </section>
+<a>Please Join Our Community:-   </a><a href>https://t.me/galaxyofskills</a>
+<script src="./galaxyofskills.js"></script>
 </body>
-</html>
+ </html>
